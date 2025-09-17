@@ -7,7 +7,6 @@ import { AboutSection } from "./components/AboutSection";
 import { BenefitsSection } from "./components/BenefitsSection";
 import { CommunityMap } from "./components/CommunityMap";
 import { TestimonialsSection } from "./components/TestimonialsSection";
-import { ContactSection } from "./components/ContactSection";
 import { Footer } from "./components/Footer";
 
 const Home = () => {
