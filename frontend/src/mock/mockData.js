@@ -76,7 +76,7 @@ export const mockCommunities = {
       members: 200,
       meetingPoint: "Merdeka Walk",
       schedule: "Senin - Jumat, 06:45 WIB",
-      contact: "medan@biketowork.id",
+      contact: "medan@bike2work.id",
       instagram: "@medan_biketowork"
     }
   ]
