@@ -1,0 +1,37 @@
+# GitLab Pages deployment for Bike to Work Indonesia
+image: node:18
+
+# Cache node_modules for faster builds
+cache:
+  paths:
+    - node_modules/
+
+# Build stage
+build:
+  stage: build
+  script:
+    - echo "Building Bike to Work Indonesia website..."
+    - yarn install --frozen-lockfile
+    - yarn build
+  artifacts:
+    paths:
+      - build/
+    expire_in: 1 hour
+  only:
+    - main
+
+# Deploy to GitLab Pages
+pages:
+  stage: deploy
+  script:
+    - echo "Deploying to GitLab Pages..."
+    - mkdir public
+    - cp -r build/* public/
+    - echo "Deployment complete!"
+  artifacts:
+    paths:
+      - public
+  dependencies:
+    - build
+  only:
+    - main
