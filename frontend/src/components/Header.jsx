@@ -19,7 +19,7 @@ export const Header = () => {
               alt="Bike to Work Indonesia Logo"
               className="h-10 w-10 rounded-lg"
             />
-            <span className="text-xl font-bold text-yellow-900">B i k e   t o   W o r k   I n d o n e s i a</span>
+            <span className="text-xl font-bold text-yellow-900">Bike to Work Indonesia</span>
           </div>
 
           {/* Desktop Navigation */}
