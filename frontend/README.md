@@ -4,12 +4,12 @@ Situs web gerakan nasional untuk mengajak masyarakat Indonesia menggunakan seped
 
 ## ✨ Fitur Utama
 
-- **🗺️ Peta Komunitas Interaktif** - Temukan komunitas bike to work di berbagai provinsi
-- **📊 Carbon Saved Tracker** - Lihat dampak nyata pengurangan jejak karbon
+- **🗺️ Peta Komunitas Interaktif** - Temukan komunitas bike to work di berbagai provinsi dengan link Instagram
+- **🔗 Carbon Saved External Link** - Link menuju carbonsaved.b2w-id.org untuk tracking jejak karbon
 - **💚 Manfaat Kesehatan & Lingkungan** - Informasi lengkap tentang keuntungan bike to work
 - **👥 Testimoni Komunitas** - Cerita inspiratif dari anggota komunitas
 - **📱 Responsive Design** - Akses mudah dari desktop dan mobile
-- **🎨 UI/UX Modern** - Desain yang bersih dan user-friendly
+- **🎨 UI/UX Modern** - Desain yang bersih dan user-friendly dengan spaced branding
 
 ## 🚀 Deployment ke GitHub Pages
 
