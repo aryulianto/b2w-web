@@ -52,7 +52,7 @@ export const mockCommunities = {
       members: 290,
       meetingPoint: "Tugu Pahlawan",
       schedule: "Senin - Jumat, 06:30 WIB",
-      contact: "surabaya@biketowork.id",
+      contact: "surabaya@bike2work.id",
       instagram: "@surabaya_workriders"
     }
   ],
