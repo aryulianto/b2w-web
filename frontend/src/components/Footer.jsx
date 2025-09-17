@@ -77,7 +77,12 @@ export const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#carbon-saved" className="text-gray-400 hover:text-white transition-colors duration-200">
+                <a 
+                  href="https://carbonsaved.b2w-id.org/" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors duration-200"
+                >
                   Carbon Saved
                 </a>
               </li>
