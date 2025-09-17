@@ -40,7 +40,7 @@ export const mockCommunities = {
       members: 180,
       meetingPoint: "Kebun Raya Bogor",
       schedule: "Senin - Jumat, 07:15 WIB",
-      contact: "bogor@biketowork.id",
+      contact: "bogor@bike2work.id",
       instagram: "@bogor_cyclists"
     }
   ],
