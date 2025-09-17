@@ -49,7 +49,9 @@ export const Header = () => {
               Peta Komunitas
             </a>
             <a 
-              href="#carbon-saved" 
+              href="https://carbonsaved.b2w-id.org/" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-gray-700 hover:text-yellow-600 font-medium transition-colors duration-200"
             >
               Carbon Saved
