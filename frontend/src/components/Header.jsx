@@ -112,6 +112,13 @@ export const Header = () => {
               Peta Komunitas
             </a>
             <a 
+              href="#carbon-saved" 
+              className="block text-gray-700 hover:text-yellow-600 font-medium transition-colors duration-200 px-4"
+              onClick={toggleMenu}
+            >
+              Carbon Saved
+            </a>
+            <a 
               href="#contact" 
               className="block text-gray-700 hover:text-yellow-600 font-medium transition-colors duration-200 px-4"
               onClick={toggleMenu}
