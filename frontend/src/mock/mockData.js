@@ -8,7 +8,7 @@ export const mockCommunities = {
       members: 450,
       meetingPoint: "Bundaran HI",
       schedule: "Senin - Jumat, 07:00 WIB",
-      contact: "jakarta@biketowork.id",
+      contact: "jakarta@bike2work.id",
       instagram: "@biketowork_jakarta"
     },
     {
