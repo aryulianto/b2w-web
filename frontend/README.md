@@ -86,19 +86,23 @@ frontend/
 - **GitHub Actions** - CI/CD
 - **GitHub Pages** - Hosting
 
-## 📊 Fitur Carbon Saved
+## 📊 Fitur Khusus
 
-- Real-time counter animasi CO₂ yang diselamatkan
-- Statistik dampak lingkungan (pohon diselamatkan, BBM dihemat)
-- Progress chart bulanan
-- Visualisasi data yang interaktif
+- **🗺️ Peta Komunitas dengan Instagram Integration**
+  - Daftar komunitas per provinsi  
+  - Informasi detail setiap komunitas
+  - Link Instagram komunitas (@biketowork_jakarta, @bandung_biketowork, dll)
+  - Info jadwal dan titik kumpul
 
-## 🗺️ Peta Komunitas
+- **🔗 Carbon Saved External Link**
+  - Menu navigasi "Carbon Saved" mengarah ke https://carbonsaved.b2w-id.org/
+  - Link external yang membuka di tab baru
+  - Terintegrasi di header dan footer navigation
 
-- Daftar komunitas per provinsi
-- Informasi detail setiap komunitas
-- Link Instagram komunitas
-- Info jadwal dan titik kumpul
+- **🎨 Spaced Branding**
+  - Header menampilkan "B i k e   t o   W o r k   I n d o n e s i a"
+  - Logo resmi Bike2Work Indonesia
+  - Tahun didirikan: 2005
 
 ## 📱 Responsive & Optimized
 
