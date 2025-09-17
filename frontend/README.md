@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+# Bike to Work Indonesia 🚴‍♂️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Situs web gerakan nasional untuk mengajak masyarakat Indonesia menggunakan sepeda sebagai transportasi utama menuju tempat kerja.
 
-## Available Scripts
+## ✨ Fitur Utama
 
-In the project directory, you can run:
+- **🗺️ Peta Komunitas Interaktif** - Temukan komunitas bike to work di berbagai provinsi
+- **📊 Carbon Saved Tracker** - Lihat dampak nyata pengurangan jejak karbon
+- **💚 Manfaat Kesehatan & Lingkungan** - Informasi lengkap tentang keuntungan bike to work
+- **👥 Testimoni Komunitas** - Cerita inspiratif dari anggota komunitas
+- **📱 Responsive Design** - Akses mudah dari desktop dan mobile
+- **🎨 UI/UX Modern** - Desain yang bersih dan user-friendly
 
-### `npm start`
+## 🚀 Deployment ke GitHub Pages
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Langkah 1: Persiapan Repository
+```bash
+# Clone atau upload ke repository GitHub Anda
+git clone <your-repo-url>
+cd biketowork-indonesia
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Langkah 2: Setup GitHub Pages
+1. Buka Settings di repository GitHub Anda
+2. Scroll ke bagian "Pages"
+3. Di Source, pilih "GitHub Actions"
 
-### `npm test`
+### Langkah 3: Deployment Otomatis
+File workflow sudah disediakan di `.github/workflows/deploy.yml` yang akan:
+- Otomatis build dan deploy setiap push ke branch `main`
+- Menggunakan yarn untuk dependency management
+- Deploy ke GitHub Pages secara otomatis
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Langkah 4: Access Website
+Setelah deployment selesai, website dapat diakses di:
+```
+https://username.github.io/repository-name
+```
 
-### `npm run build`
+## 🛠️ Development Local
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# Install dependencies
+yarn install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Start development server
+yarn start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Build untuk production
+yarn build
+```
 
-### `npm run eject`
+## 📁 Struktur Project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+frontend/
+├── public/
+│   ├── index.html
+│   └── _redirects           # Untuk SPA routing
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── HeroSection.jsx
+│   │   ├── AboutSection.jsx
+│   │   ├── BenefitsSection.jsx
+│   │   ├── CommunityMap.jsx
+│   │   ├── CarbonSavedSection.jsx
+│   │   ├── TestimonialsSection.jsx
+│   │   └── Footer.jsx
+│   ├── mock/
+│   │   └── mockData.js      # Data komunitas dan testimoni
+│   ├── App.js
+│   ├── App.css
+│   └── index.css
+├── .github/
+│   └── workflows/
+│       └── deploy.yml       # GitHub Actions untuk deployment
+└── package.json
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎨 Teknologi yang Digunakan
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **React 19** - Frontend framework
+- **Tailwind CSS** - Styling
+- **Lucide React** - Icons
+- **React Router** - Navigation
+- **GitHub Actions** - CI/CD
+- **GitHub Pages** - Hosting
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📊 Fitur Carbon Saved
 
-## Learn More
+- Real-time counter animasi CO₂ yang diselamatkan
+- Statistik dampak lingkungan (pohon diselamatkan, BBM dihemat)
+- Progress chart bulanan
+- Visualisasi data yang interaktif
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🗺️ Peta Komunitas
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Daftar komunitas per provinsi
+- Informasi detail setiap komunitas
+- Link Instagram komunitas
+- Info jadwal dan titik kumpul
 
-### Code Splitting
+## 📱 Responsive & Optimized
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Mobile-first design
+- Fast loading dengan optimized assets
+- SEO-friendly
+- Accessibility compliant
 
-### Analyzing the Bundle Size
+## 🤝 Kontribusi
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Website ini adalah bagian dari gerakan Bike to Work Indonesia. Kontribusi dan saran selalu diterima untuk meningkatkan kualitas dan fungsionalitas website.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**© 2025 BikeToWork Indonesia - Mari Bersama Selamatkan Bumi! 🌍**
