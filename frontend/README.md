@@ -11,31 +11,53 @@ Situs web gerakan nasional untuk mengajak masyarakat Indonesia menggunakan seped
 - **📱 Responsive Design** - Akses mudah dari desktop dan mobile
 - **🎨 UI/UX Modern** - Desain yang bersih dan user-friendly dengan spaced branding
 
-## 🚀 Deployment ke GitHub Pages
+## 🚀 Deployment - Pilih Platform
 
-### Langkah 1: Persiapan Repository
+### GitHub Pages (Recommended)
+
+#### Langkah 1: Setup Repository
 ```bash
-# Clone atau upload ke repository GitHub Anda
-git clone <your-repo-url>
-cd biketowork-indonesia
+# Upload semua file ke repository GitHub
+git clone https://github.com/username/bike2work-indonesia.git
+cd bike2work-indonesia
+# Copy semua file dari folder frontend ke root repository
 ```
 
-### Langkah 2: Setup GitHub Pages
-1. Buka Settings di repository GitHub Anda
-2. Scroll ke bagian "Pages"
-3. Di Source, pilih "GitHub Actions"
+#### Langkah 2: Enable GitHub Pages
+1. Buka **Settings** di repository GitHub
+2. Scroll ke **Pages** (sidebar kiri)
+3. Di **Source**, pilih **GitHub Actions**
 
-### Langkah 3: Deployment Otomatis
-File workflow sudah disediakan di `.github/workflows/deploy.yml` yang akan:
-- Otomatis build dan deploy setiap push ke branch `main`
-- Menggunakan yarn untuk dependency management
-- Deploy ke GitHub Pages secara otomatis
+#### Langkah 3: Deploy Otomatis
+```bash
+git add .
+git commit -m "Deploy Bike to Work Indonesia"
+git push origin main
+```
 
-### Langkah 4: Access Website
-Setelah deployment selesai, website dapat diakses di:
+Website akan otomatis tersedia di:
+- Default: `https://username.github.io/bike2work-indonesia`
+- Custom domain: `https://bike2work.id` (jika CNAME dikonfigurasi)
+
+### GitLab Pages
+
+#### Langkah 1: Setup Repository GitLab
+```bash
+# Upload semua file ke repository GitLab
+git clone https://gitlab.com/username/bike2work-indonesia.git
+cd bike2work-indonesia
+# Copy semua file dari folder frontend ke root repository
 ```
-https://username.github.io/repository-name
+
+#### Langkah 2: Deploy Otomatis
+```bash
+git add .
+git commit -m "Deploy Bike to Work Indonesia to GitLab Pages"
+git push origin main
 ```
+
+Website akan otomatis tersedia di:
+- `https://username.gitlab.io/bike2work-indonesia`
 
 ## 🛠️ Development Local
 
@@ -50,31 +72,28 @@ yarn start
 yarn build
 ```
 
-## 📁 Struktur Project
+## 📁 Struktur Project untuk Deployment
 
 ```
-frontend/
+bike2work-indonesia/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml       # GitHub Actions
+├── .gitlab-ci.yml           # GitLab CI/CD
 ├── public/
 │   ├── index.html
-│   └── _redirects           # Untuk SPA routing
+│   ├── CNAME               # Custom domain untuk GitHub Pages
+│   ├── 404.html            # SPA routing support
+│   └── _redirects          # Fallback routing
 ├── src/
 │   ├── components/
-│   │   ├── Header.jsx
-│   │   ├── HeroSection.jsx
-│   │   ├── AboutSection.jsx
-│   │   ├── BenefitsSection.jsx
-│   │   ├── CommunityMap.jsx
-│   │   ├── TestimonialsSection.jsx
-│   │   └── Footer.jsx
 │   ├── mock/
-│   │   └── mockData.js      # Data komunitas dengan Instagram links
 │   ├── App.js
 │   ├── App.css
 │   └── index.css
-├── .github/
-│   └── workflows/
-│       └── deploy.yml       # GitHub Actions untuk deployment
-└── package.json
+├── package.json
+├── README.md
+└── DEPLOY.md
 ```
 
 ## 🎨 Teknologi yang Digunakan
@@ -83,8 +102,33 @@ frontend/
 - **Tailwind CSS** - Styling
 - **Lucide React** - Icons
 - **React Router** - Navigation
-- **GitHub Actions** - CI/CD
-- **GitHub Pages** - Hosting
+- **GitHub Actions / GitLab CI** - CI/CD
+- **GitHub Pages / GitLab Pages** - Hosting
+
+## 🌐 Domain Configuration
+
+### Custom Domain Setup
+1. **DNS Setup**: Point `bike2work.id` to pages server
+   - GitHub Pages: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
+   - GitLab Pages: Sesuai dengan GitLab Pages IP
+
+2. **CNAME File**: Sudah included di `public/CNAME`
+
+3. **SSL**: Otomatis disediakan oleh platform
+
+## 🔧 Platform Features
+
+### GitHub Pages
+- ✅ Otomatis SSL/HTTPS
+- ✅ Custom domain support
+- ✅ Build dari GitHub Actions
+- ✅ Fast global CDN
+
+### GitLab Pages  
+- ✅ Otomatis SSL/HTTPS
+- ✅ Custom domain support
+- ✅ Build dari GitLab CI/CD
+- ✅ Private repository support
 
 ## 📊 Fitur Khusus
 
@@ -99,17 +143,18 @@ frontend/
   - Link external yang membuka di tab baru
   - Terintegrasi di header dan footer navigation
 
-- **🎨 Spaced Branding**
-  - Header menampilkan "B i k e   t o   W o r k   I n d o n e s i a"
-  - Logo resmi Bike2Work Indonesia
+- **🎨 Professional Branding**
+  - Header menampilkan "Bike to Work Indonesia"
+  - Logo resmi Bike2Work Indonesia sebagai favicon
   - Tahun didirikan: 2005
+  - Email kontak: info@bike2work.id
 
-## 📱 Responsive & Optimized
+## 📱 SPA Routing
 
-- Mobile-first design
-- Fast loading dengan optimized assets
-- SEO-friendly
-- Accessibility compliant
+Website menggunakan client-side routing yang compatible dengan:
+- GitHub Pages (404.html fallback)
+- GitLab Pages (_redirects fallback)
+- Custom server deployment
 
 ## 🤝 Kontribusi
 
@@ -117,4 +162,4 @@ Website ini adalah bagian dari gerakan Bike to Work Indonesia. Kontribusi dan sa
 
 ---
 
-**© 2025 BikeToWork Indonesia - Mari Bersama Selamatkan Bumi! 🌍**
+**© 2025 Bike to Work Indonesia - Mari Bersama Selamatkan Bumi! 🌍**
