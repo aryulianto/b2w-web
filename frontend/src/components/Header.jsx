@@ -13,13 +13,13 @@ export const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-3">
             <img 
               src="https://customer-assets.emergentagent.com/job_bike2work-id/artifacts/shgkln64_images.png" 
               alt="Bike to Work Indonesia Logo"
               className="h-10 w-10 rounded-lg"
             />
-            <span className="text-xl font-bold text-yellow-900">BikeToWork Indonesia</span>
+            <span className="text-xl font-bold text-yellow-900">B i k e   t o   W o r k   I n d o n e s i a</span>
           </div>
 
           {/* Desktop Navigation */}
