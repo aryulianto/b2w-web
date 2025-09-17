@@ -77,6 +77,11 @@ export const Footer = () => {
                 </a>
               </li>
               <li>
+                <a href="#carbon-saved" className="text-gray-400 hover:text-white transition-colors duration-200">
+                  Carbon Saved
+                </a>
+              </li>
+              <li>
                 <a href="#contact" className="text-gray-400 hover:text-white transition-colors duration-200">
                   Kontak
                 </a>
