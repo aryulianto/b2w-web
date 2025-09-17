@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MapPin, Users, Clock, Mail, ChevronDown, ChevronUp } from 'lucide-react';
+import { MapPin, Users, Clock, Mail, ChevronDown, ChevronUp, Instagram } from 'lucide-react';
 import { mockCommunities } from '../mock/mockData';
 
 export const CommunityMap = () => {
