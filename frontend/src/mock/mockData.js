@@ -8,7 +8,8 @@ export const mockCommunities = {
       members: 450,
       meetingPoint: "Bundaran HI",
       schedule: "Senin - Jumat, 07:00 WIB",
-      contact: "jakarta@biketowork.id"
+      contact: "jakarta@biketowork.id",
+      instagram: "@biketowork_jakarta"
     },
     {
       id: 2,
@@ -17,7 +18,8 @@ export const mockCommunities = {
       members: 280,
       meetingPoint: "Senayan Park",
       schedule: "Senin - Jumat, 06:30 WIB",
-      contact: "south@biketowork.id"
+      contact: "south@biketowork.id",
+      instagram: "@southjkt_cycling"
     }
   ],
   "Jawa Barat": [
@@ -28,7 +30,8 @@ export const mockCommunities = {
       members: 320,
       meetingPoint: "Alun-alun Bandung",
       schedule: "Senin - Jumat, 06:45 WIB", 
-      contact: "bandung@biketowork.id"
+      contact: "bandung@biketowork.id",
+      instagram: "@bandung_biketowork"
     },
     {
       id: 4,
@@ -37,7 +40,8 @@ export const mockCommunities = {
       members: 180,
       meetingPoint: "Kebun Raya Bogor",
       schedule: "Senin - Jumat, 07:15 WIB",
-      contact: "bogor@biketowork.id"
+      contact: "bogor@biketowork.id",
+      instagram: "@bogor_cyclists"
     }
   ],
   "Jawa Timur": [
@@ -48,7 +52,8 @@ export const mockCommunities = {
       members: 290,
       meetingPoint: "Tugu Pahlawan",
       schedule: "Senin - Jumat, 06:30 WIB",
-      contact: "surabaya@biketowork.id"
+      contact: "surabaya@biketowork.id",
+      instagram: "@surabaya_workriders"
     }
   ],
   "Bali": [
@@ -59,7 +64,8 @@ export const mockCommunities = {
       members: 150,
       meetingPoint: "Puputan Square",
       schedule: "Senin - Jumat, 06:00 WIB",
-      contact: "denpasar@biketowork.id"
+      contact: "denpasar@biketowork.id",
+      instagram: "@denpasar_bikers"
     }
   ],
   "Sumatera Utara": [
@@ -70,7 +76,8 @@ export const mockCommunities = {
       members: 200,
       meetingPoint: "Merdeka Walk",
       schedule: "Senin - Jumat, 06:45 WIB",
-      contact: "medan@biketowork.id"
+      contact: "medan@biketowork.id",
+      instagram: "@medan_biketowork"
     }
   ]
 };
