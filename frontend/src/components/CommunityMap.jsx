@@ -121,6 +121,17 @@ export const CommunityMap = () => {
                       <Clock className="h-4 w-4 mr-2 text-yellow-600" />
                       <span className="text-sm">{community.schedule}</span>
                     </div>
+                    <div className="flex items-center text-gray-600">
+                      <Instagram className="h-4 w-4 mr-2 text-pink-500" />
+                      <a 
+                        href={`https://instagram.com/${community.instagram.replace('@', '')}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm hover:text-pink-500 transition-colors duration-200"
+                      >
+                        {community.instagram}
+                      </a>
+                    </div>
                   </div>
 
                   <button
