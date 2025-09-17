@@ -24,11 +24,15 @@ const Home = () => {
 };
 
 function App() {
+  const basename = process.env.NODE_ENV === 'production' ? 
+    (process.env.PUBLIC_URL || '') : '';
+
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={basename}>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="*" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </div>
