@@ -18,6 +18,7 @@ const Home = () => {
       <AboutSection />
       <BenefitsSection />
       <CommunityMap />
+      <CarbonSavedSection />
       <TestimonialsSection />
       <Footer />
     </div>
