@@ -10,9 +10,11 @@ export const Footer = () => {
           {/* Brand Section */}
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="bg-yellow-400 p-2 rounded-lg">
-                <Bike className="h-6 w-6 text-yellow-900" />
-              </div>
+              <img 
+                src="https://customer-assets.emergentagent.com/job_bike2work-id/artifacts/shgkln64_images.png" 
+                alt="Bike to Work Indonesia Logo"
+                className="h-8 w-8 rounded-lg"
+              />
               <span className="text-xl font-bold">BikeToWork Indonesia</span>
             </div>
             <p className="text-gray-400 leading-relaxed mb-4">
