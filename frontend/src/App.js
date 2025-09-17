@@ -6,6 +6,7 @@ import { HeroSection } from "./components/HeroSection";
 import { AboutSection } from "./components/AboutSection";
 import { BenefitsSection } from "./components/BenefitsSection";
 import { CommunityMap } from "./components/CommunityMap";
+import { CarbonSavedSection } from "./components/CarbonSavedSection";
 import { TestimonialsSection } from "./components/TestimonialsSection";
 import { Footer } from "./components/Footer";
 
