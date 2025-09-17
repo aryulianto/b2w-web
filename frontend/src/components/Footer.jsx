@@ -15,7 +15,7 @@ export const Footer = () => {
                 alt="Bike to Work Indonesia Logo"
                 className="h-8 w-8 rounded-lg"
               />
-              <span className="text-xl font-bold">B i k e T o W o r k   I n d o n e s i a</span>
+              <span className="text-xl font-bold">Bike to Work Indonesia</span>
             </div>
             <p className="text-gray-400 leading-relaxed mb-4">
               Gerakan nasional untuk gaya hidup sehat, hemat, dan ramah lingkungan melalui bersepeda ke tempat kerja.
