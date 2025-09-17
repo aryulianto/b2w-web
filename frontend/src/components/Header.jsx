@@ -57,7 +57,7 @@ export const Header = () => {
               Carbon Saved
             </a>
             <a 
-              href="#contact" 
+              href="#footer" 
               className="text-gray-700 hover:text-yellow-600 font-medium transition-colors duration-200"
             >
               Kontak
