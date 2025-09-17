@@ -9,13 +9,13 @@ export const Footer = () => {
         <div className="py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand Section */}
           <div className="lg:col-span-1">
-            <div className="flex items-center space-x-2 mb-4">
+            <div className="flex items-center space-x-3 mb-4">
               <img 
                 src="https://customer-assets.emergentagent.com/job_bike2work-id/artifacts/shgkln64_images.png" 
                 alt="Bike to Work Indonesia Logo"
                 className="h-8 w-8 rounded-lg"
               />
-              <span className="text-xl font-bold">BikeToWork Indonesia</span>
+              <span className="text-xl font-bold">B i k e T o W o r k   I n d o n e s i a</span>
             </div>
             <p className="text-gray-400 leading-relaxed mb-4">
               Gerakan nasional untuk gaya hidup sehat, hemat, dan ramah lingkungan melalui bersepeda ke tempat kerja.
