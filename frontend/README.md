@@ -64,11 +64,10 @@ frontend/
 │   │   ├── AboutSection.jsx
 │   │   ├── BenefitsSection.jsx
 │   │   ├── CommunityMap.jsx
-│   │   ├── CarbonSavedSection.jsx
 │   │   ├── TestimonialsSection.jsx
 │   │   └── Footer.jsx
 │   ├── mock/
-│   │   └── mockData.js      # Data komunitas dan testimoni
+│   │   └── mockData.js      # Data komunitas dengan Instagram links
 │   ├── App.js
 │   ├── App.css
 │   └── index.css
