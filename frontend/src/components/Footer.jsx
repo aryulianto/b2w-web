@@ -67,6 +67,26 @@ export const Footer = () => {
                 </a>
               </li>
               <li>
+                <span className="text-gray-400 font-medium">Program:</span>
+                <ul className="ml-4 mt-1 space-y-1">
+                  <li>
+                    <a href="#kampanye" className="text-gray-500 hover:text-white transition-colors duration-200 text-sm">
+                      Kampanye
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#edukasi" className="text-gray-500 hover:text-white transition-colors duration-200 text-sm">
+                      Edukasi
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#advokasi" className="text-gray-500 hover:text-white transition-colors duration-200 text-sm">
+                      Advokasi
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
                 <a href="#benefits" className="text-gray-400 hover:text-white transition-colors duration-200">
                   Manfaat
                 </a>
@@ -89,33 +109,33 @@ export const Footer = () => {
             </ul>
           </div>
 
-          {/* Resources */}
+          {/* Program Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-yellow-400">Sumber Daya</h3>
+            <h3 className="text-lg font-semibold mb-4 text-yellow-400">Program Lainnya</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  Panduan Pemula
+                <a href="#sosial" className="text-gray-400 hover:text-white transition-colors duration-200">
+                  Program Sosial
+                </a>
+              </li>
+              <li>
+                <a href="#kolaborasi" className="text-gray-400 hover:text-white transition-colors duration-200">
+                  Kolaborasi
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  Tips Keselamatan
+                  Volunteer
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  Rute Terbaik
+                  Donasi
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  Perawatan Sepeda
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  FAQ
+                  Partnership
                 </a>
               </li>
             </ul>
