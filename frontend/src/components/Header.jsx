@@ -66,7 +66,7 @@ export const Header = () => {
             </a>
             
             {/* Program Dropdown */}
-            <div className="relative">
+            <div className="relative" ref={dropdownRef}>
               <button
                 onClick={toggleProgramDropdown}
                 className="flex items-center space-x-1 text-gray-700 hover:text-yellow-600 font-medium transition-colors duration-200"
