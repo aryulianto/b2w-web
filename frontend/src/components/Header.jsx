@@ -1,12 +1,25 @@
 import React, { useState } from 'react';
-import { Menu, X, Bike } from 'lucide-react';
+import { Menu, X, Bike, ChevronDown } from 'lucide-react';
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isProgramDropdownOpen, setIsProgramDropdownOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
+  const toggleProgramDropdown = () => {
+    setIsProgramDropdownOpen(!isProgramDropdownOpen);
+  };
+
+  const programItems = [
+    { name: 'Kampanye', href: '#kampanye' },
+    { name: 'Edukasi', href: '#edukasi' },
+    { name: 'Advokasi', href: '#advokasi' },
+    { name: 'Sosial', href: '#sosial' },
+    { name: 'Kolaborasi', href: '#kolaborasi' }
+  ];
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50 border-b border-yellow-100">
@@ -36,6 +49,33 @@ export const Header = () => {
             >
               Tentang
             </a>
+            
+            {/* Program Dropdown */}
+            <div className="relative">
+              <button
+                onClick={toggleProgramDropdown}
+                className="flex items-center space-x-1 text-gray-700 hover:text-yellow-600 font-medium transition-colors duration-200"
+              >
+                <span>Program</span>
+                <ChevronDown className={`h-4 w-4 transition-transform duration-200 ${isProgramDropdownOpen ? 'rotate-180' : ''}`} />
+              </button>
+              
+              {isProgramDropdownOpen && (
+                <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-yellow-100 py-2 z-50">
+                  {programItems.map((item, index) => (
+                    <a
+                      key={index}
+                      href={item.href}
+                      className="block px-4 py-2 text-gray-700 hover:text-yellow-600 hover:bg-yellow-50 transition-colors duration-200"
+                      onClick={() => setIsProgramDropdownOpen(false)}
+                    >
+                      {item.name}
+                    </a>
+                  ))}
+                </div>
+              )}
+            </div>
+
             <a 
               href="#benefits" 
               className="text-gray-700 hover:text-yellow-600 font-medium transition-colors duration-200"
@@ -99,6 +139,33 @@ export const Header = () => {
             >
               Tentang
             </a>
+            
+            {/* Mobile Program Menu */}
+            <div className="px-4">
+              <button
+                onClick={toggleProgramDropdown}
+                className="flex items-center justify-between w-full text-gray-700 hover:text-yellow-600 font-medium transition-colors duration-200"
+              >
+                <span>Program</span>
+                <ChevronDown className={`h-4 w-4 transition-transform duration-200 ${isProgramDropdownOpen ? 'rotate-180' : ''}`} />
+              </button>
+              
+              {isProgramDropdownOpen && (
+                <div className="mt-2 pl-4 space-y-2">
+                  {programItems.map((item, index) => (
+                    <a
+                      key={index}
+                      href={item.href}
+                      className="block text-gray-600 hover:text-yellow-600 transition-colors duration-200 py-1"
+                      onClick={toggleMenu}
+                    >
+                      {item.name}
+                    </a>
+                  ))}
+                </div>
+              )}
+            </div>
+
             <a 
               href="#benefits" 
               className="block text-gray-700 hover:text-yellow-600 font-medium transition-colors duration-200 px-4"
