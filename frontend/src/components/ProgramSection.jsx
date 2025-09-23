@@ -1,40 +1,8 @@
 import React from 'react';
-import { Megaphone, BookOpen, Scale, Heart, Users } from 'lucide-react';
+import { Scale, Megaphone, Heart, Users, BookOpen } from 'lucide-react';
 
 export const ProgramSection = () => {
   const programs = [
-    {
-      id: 'kampanye',
-      icon: Megaphone,
-      title: 'Kampanye',
-      subtitle: 'Sosialisasi & Awareness',
-      description: 'Menggalakkan kampanye nasional untuk meningkatkan kesadaran masyarakat tentang manfaat bersepeda ke tempat kerja sebagai gaya hidup sehat dan ramah lingkungan.',
-      features: [
-        'Kampanye media sosial #BikeToWorkIndonesia',
-        'Event Car Free Day di berbagai kota',
-        'Kolaborasi dengan influencer dan public figure',
-        'Konten edukatif di platform digital'
-      ],
-      bgGradient: 'from-orange-100 to-yellow-100',
-      iconBg: 'bg-orange-100',
-      iconColor: 'text-orange-600'
-    },
-    {
-      id: 'edukasi',
-      icon: BookOpen,
-      title: 'Edukasi',
-      subtitle: 'Pembelajaran & Pelatihan',
-      description: 'Program edukasi komprehensif tentang keselamatan berkendara, perawatan sepeda, dan manfaat kesehatan dari aktivitas bersepeda secara rutin.',
-      features: [
-        'Workshop keselamatan berkendara sepeda',
-        'Pelatihan perawatan dan service sepeda',
-        'Webinar kesehatan dan nutrisi untuk cyclist',
-        'Panduan rute aman untuk bike commuter'
-      ],
-      bgGradient: 'from-blue-100 to-cyan-100',
-      iconBg: 'bg-blue-100',
-      iconColor: 'text-blue-600'
-    },
     {
       id: 'advokasi',
       icon: Scale,
@@ -50,6 +18,22 @@ export const ProgramSection = () => {
       bgGradient: 'from-purple-100 to-pink-100',
       iconBg: 'bg-purple-100',
       iconColor: 'text-purple-600'
+    },
+    {
+      id: 'kampanye',
+      icon: Megaphone,
+      title: 'Kampanye',
+      subtitle: 'Sosialisasi & Awareness',
+      description: 'Menggalakkan kampanye nasional untuk meningkatkan kesadaran masyarakat tentang manfaat bersepeda ke tempat kerja sebagai gaya hidup sehat dan ramah lingkungan.',
+      features: [
+        'Kampanye media sosial #BikeToWorkIndonesia',
+        'Event Car Free Day di berbagai kota',
+        'Kolaborasi dengan influencer dan public figure',
+        'Konten edukatif di platform digital'
+      ],
+      bgGradient: 'from-orange-100 to-yellow-100',
+      iconBg: 'bg-orange-100',
+      iconColor: 'text-orange-600'
     },
     {
       id: 'sosial',
@@ -68,20 +52,36 @@ export const ProgramSection = () => {
       iconColor: 'text-green-600'
     },
     {
-      id: 'kolaborasi',
+      id: 'inklusi',
       icon: Users,
-      title: 'Kolaborasi',
-      subtitle: 'Kemitraan & Networking',
-      description: 'Membangun kemitraan strategis dengan berbagai pihak untuk memperluas dampak positif gerakan Bike to Work Indonesia.',
+      title: 'Inklusi',
+      subtitle: 'Kesetaraan & Aksesibilitas',
+      description: 'Program inklusi untuk memastikan gerakan Bike to Work dapat diakses oleh semua kalangan tanpa memandang gender, usia, kemampuan fisik, dan latar belakang sosial ekonomi.',
       features: [
-        'Partnership dengan perusahaan-perusahaan besar',
-        'Kolaborasi dengan komunitas olahraga lain',
-        'Kerjasama dengan startup transportasi',
-        'Networking dengan NGO lingkungan hidup'
+        'Program sepeda adaptif untuk penyandang disabilitas',
+        'Pelatihan cycling untuk perempuan pemula',
+        'Subsidi sepeda untuk komunitas berpenghasilan rendah',
+        'Event cycling ramah keluarga dan lansia'
       ],
-      bgGradient: 'from-yellow-100 to-amber-100',
-      iconBg: 'bg-yellow-100',
-      iconColor: 'text-yellow-600'
+      bgGradient: 'from-indigo-100 to-blue-100',
+      iconBg: 'bg-indigo-100',
+      iconColor: 'text-indigo-600'
+    },
+    {
+      id: 'edukasi',
+      icon: BookOpen,
+      title: 'Edukasi',
+      subtitle: 'Pembelajaran & Pelatihan',
+      description: 'Program edukasi komprehensif tentang keselamatan berkendara, perawatan sepeda, dan manfaat kesehatan dari aktivitas bersepeda secara rutin.',
+      features: [
+        'Workshop keselamatan berkendara sepeda',
+        'Pelatihan perawatan dan service sepeda',
+        'Webinar kesehatan dan nutrisi untuk cyclist',
+        'Panduan rute aman untuk bike commuter'
+      ],
+      bgGradient: 'from-blue-100 to-cyan-100',
+      iconBg: 'bg-blue-100',
+      iconColor: 'text-blue-600'
     }
   ];
 
