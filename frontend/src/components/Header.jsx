@@ -29,11 +29,11 @@ export const Header = () => {
   }, []);
 
   const programItems = [
-    { name: 'Kampanye', href: '#kampanye' },
-    { name: 'Edukasi', href: '#edukasi' },
     { name: 'Advokasi', href: '#advokasi' },
+    { name: 'Kampanye', href: '#kampanye' },
     { name: 'Sosial', href: '#sosial' },
-    { name: 'Kolaborasi', href: '#kolaborasi' }
+    { name: 'Inklusi', href: '#inklusi' },
+    { name: 'Edukasi', href: '#edukasi' }
   ];
 
   return (
