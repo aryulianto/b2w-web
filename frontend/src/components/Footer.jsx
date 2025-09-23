@@ -89,33 +89,33 @@ export const Footer = () => {
             </ul>
           </div>
 
-          {/* Program Links */}
+          {/* Sumber Daya */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-yellow-400">Program Lainnya</h3>
+            <h3 className="text-lg font-semibold mb-4 text-yellow-400">Sumber Daya</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#inklusi" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  Program Inklusi
-                </a>
-              </li>
-              <li>
-                <a href="#edukasi" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  Edukasi
+                <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
+                  Panduan Pemula
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  Volunteer
+                  Tips Keselamatan
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  Donasi
+                  Rute Terbaik
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  Partnership
+                  Perawatan Sepeda
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
+                  Cendera Mata
                 </a>
               </li>
             </ul>
