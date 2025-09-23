@@ -168,25 +168,6 @@ export const ProgramSection = () => {
             </div>
           ))}
         </div>
-
-        {/* Call to Action */}
-        <div className="mt-20 text-center bg-gradient-to-r from-yellow-100 to-orange-100 rounded-3xl p-8 md:p-12">
-          <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-            Bergabunglah dalam Program Kami! 🚴‍♂️
-          </h3>
-          <p className="text-lg text-gray-700 mb-6 max-w-2xl mx-auto">
-            Jadilah bagian dari perubahan positif untuk Indonesia yang lebih sehat dan berkelanjutan. 
-            Setiap kontribusi Anda akan memberikan dampak yang berarti.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-semibold px-8 py-3 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
-              Daftar Volunteer
-            </button>
-            <button className="border-2 border-yellow-400 text-yellow-700 hover:bg-yellow-50 font-semibold px-8 py-3 rounded-xl transition-all duration-300 transform hover:scale-105">
-              Donasi Program
-            </button>
-          </div>
-        </div>
       </div>
     </section>
   );
