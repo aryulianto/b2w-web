@@ -114,13 +114,13 @@ export const Footer = () => {
             <h3 className="text-lg font-semibold mb-4 text-yellow-400">Program Lainnya</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#sosial" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  Program Sosial
+                <a href="#inklusi" className="text-gray-400 hover:text-white transition-colors duration-200">
+                  Program Inklusi
                 </a>
               </li>
               <li>
-                <a href="#kolaborasi" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  Kolaborasi
+                <a href="#edukasi" className="text-gray-400 hover:text-white transition-colors duration-200">
+                  Edukasi
                 </a>
               </li>
               <li>
