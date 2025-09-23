@@ -70,18 +70,18 @@ export const Footer = () => {
                 <span className="text-gray-400 font-medium">Program:</span>
                 <ul className="ml-4 mt-1 space-y-1">
                   <li>
+                    <a href="#advokasi" className="text-gray-500 hover:text-white transition-colors duration-200 text-sm">
+                      Advokasi
+                    </a>
+                  </li>
+                  <li>
                     <a href="#kampanye" className="text-gray-500 hover:text-white transition-colors duration-200 text-sm">
                       Kampanye
                     </a>
                   </li>
                   <li>
-                    <a href="#edukasi" className="text-gray-500 hover:text-white transition-colors duration-200 text-sm">
-                      Edukasi
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#advokasi" className="text-gray-500 hover:text-white transition-colors duration-200 text-sm">
-                      Advokasi
+                    <a href="#sosial" className="text-gray-500 hover:text-white transition-colors duration-200 text-sm">
+                      Sosial
                     </a>
                   </li>
                 </ul>
